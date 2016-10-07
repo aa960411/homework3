@@ -4,8 +4,8 @@ import java.util.*;
             void input(){
            Scanner s = new Scanner(System.in);
              System.out.print("input your income : ");
-             int income = s.nextInt(); 
-             int tax;
+             double income = s.nextInt(); 
+             double tax;
              if (income < 10000000){
              tax = income * 0.095;
              System.out.println(tax + "won");
